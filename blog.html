@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap"
+      rel="stylesheet" />
+
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- this section is for header only -->
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa fa-bars" aria-hidden="true" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BOLG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="ShowMenu()"></i>
+        <!-- <i class="fa-solid fa-bars" onclick= "ShowMenu()"></i> -->
+      </nav>
+
+     <h1>Our Certifate & Online Program For 2021</h1>
+    </section>
+
+    <!-- --------------blog page content-------------  -->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/certificate.jpg" alt="">
+          <h2>Our Certifates & Online Program For 2021</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis tempora, aspernatur in amet eligendi labore ipsam natus ipsum, fugit atque modi facere laudantium, quidem adipisci pariatur tenetur. Deleniti ex sunt ullam unde, quos asperiores hic.</p>
+          <br>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique repellendus, iure fuga exercitationem velit, quia placeat distinctio consequuntur quos cum, blanditiis culpa aliquid officiis dolor.</p>
+          <br>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quam tempora hic vero dolore ab at illum exercitationem? Sed error, nesciunt praesentium laborum omnis ipsum. Quis recusandae qui totam nostrum consequatur, ea, suscipit dolorem aspernatur, nemo nulla explicabo ducimus amet?</p>
+
+
+          <div class="comment-box">
+            <h3>Leave a Comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name">
+              <input type="email" type="text" placeholder="Enter Email">
+             <textarea  rows="5" placeholder="Your Comment"></textarea>
+             <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+          </div>
+
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Bussiness Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>30</span>
+          </div>
+          <div>
+            <span>Cyber  Security</span>
+            <span>35</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>40</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Footer  -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cupiditate eaque repellendus cumque,<br> eveniet distinctio voluptate quas aliquid ab molestias fugiat aperiam facere, dolores quam ut suscipit aut obcaecati laudantium.</p>
+        <div class="icons">
+            
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-instagram " aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Ravi Kumar</p>
+
+    </section>
+    <!-- javascript for the toggle men -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function ShowMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

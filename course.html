@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap"
+      rel="stylesheet" />
+
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- this section is for header only -->
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa fa-bars" aria-hidden="true" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BOLG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="ShowMenu()"></i>
+        <!-- <i class="fa-solid fa-bars" onclick= "ShowMenu()"></i> -->
+      </nav>
+
+     <h1>Our Courses</h1>
+
+
+    </section>
+
+    <!-- this is the section of Courses  -->
+    <section class="course">
+      <h1>Courses We offer</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermedite</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto,
+            similique? Harum hic iusto, animi quis corrupti eveniet assumenda
+            neque sapiente odit veritatis expedita quae aperiam unde
+            reprehenderit id et ullam natus! Perferendis, dolore sunt.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto,
+            similique? Harum hic iusto, animi quis corrupti eveniet assumenda
+            neque sapiente odit veritatis expedita quae aperiam unde
+            reprehenderit id et ullam natus! Perferendis, dolore sunt.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>PostGraudation</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto,
+            similique? Harum hic iusto, animi quis corrupti eveniet assumenda
+            neque sapiente odit veritatis expedita quae aperiam unde
+            reprehenderit id et ullam natus! Perferendis, dolore sunt.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---facilites---- -->
+    <section class="facilites">
+      <h1>Our Facilites</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, quam.</p>
+      <div class="row">
+          <div class="facilites-col">
+              <img src="images/library.png" alt="">
+              <h3>World Class library</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio accusamus id molestias, dignissimos eos.</p>
+          </div>
+          <div class="facilites-col">
+              <img src="images/basketball.png" alt="">
+              <h3>Largest Play Ground</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio accusamus id molestias, dignissimos eos.</p>
+          </div>
+          <div class="facilites-col">
+              <img src="images/cafeteria.png" alt="">
+              <h3>Tasty and Healthy Food</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat odio accusamus id molestias, dignissimos eos.</p>
+          </div>
+      </div>
+  </section>
+
+  
+
+
+    
+    <!-- Footer  -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cupiditate eaque repellendus cumque,<br> eveniet distinctio voluptate quas aliquid ab molestias fugiat aperiam facere, dolores quam ut suscipit aut obcaecati laudantium.</p>
+        <div class="icons">
+            
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-instagram " aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Ravi Kumar</p>
+
+    </section>
+    <!-- javascript for the toggle men -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function ShowMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
